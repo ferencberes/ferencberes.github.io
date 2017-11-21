@@ -1,0 +1,144 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --yellow: rgb(255, 255, 102);
+  --red: rgb(255, 77, 77);
+  --blue: rgb(128, 128, 255);
+  --green: rgb(92, 214, 92);
+  --orange: rgb(255, 112, 77);
+}
+
+body { font-family: sans-serif; }
+
+.masonry-content h2 {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.masonry-content msg {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 13pt;
+  /*text-decoration: underline;*/
+}
+
+.masonry-content a {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 16pt;
+  text-decoration: underline;
+  color: #000;
+}
+
+.masonry-content a.wlink {
+  font-size: 13pt;
+}
+
+.grid {
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: #D26;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.grid-item:hover {
+  background: #A2C;
+  border-color: white;
+  cursor: pointer;
+}
+
+.grid-item msg {
+  visibility: hidden;
+}
+
+.grid-item a {
+  visibility: hidden;
+}
+
+.grid-item--gigante msg {
+  visibility: visible;
+}
+
+.grid-item--gigante a {
+  visibility: visible;
+}
+
+.sztaki {
+  width: 260px;
+  height: 120px;
+  background-color: var(--blue); 
+}
+
+.sztaki--gigante {
+   width: 300px;
+   height: 280px;
+}
+
+.studies {
+  width: 240px;
+  height: 120px;
+  background-color: var(--yellow);
+}
+
+.studies--gigante {
+  width: 300px;
+  height: 260px;
+}
+
+.praudit {
+  width: 200px;
+  height: 80px;
+  background-color: var(--blue);
+}
+
+.praudit--gigante {
+  width: 300px;
+  height: 250px;
+}
+
+.bsi {
+  width: 170px;
+  height: 90px;
+  background-color: var(--orange);
+}
+
+.bsi--gigante {
+  width: 250px;
+  height: 210px;
+}
+
+.bme {
+  width: 250px;
+  height: 120px;
+  background-color: var(--red);
+}
+
+.bme--gigante {
+  width: 300px;
+  height: 210px;
+}
+
+.prog_lang {
+  width: 280px;
+  height: 90px;
+  background-color: var(--green);
+}
+
+.prog_lang--gigante {
+  width: 250px;
+  height: 220px;
+}

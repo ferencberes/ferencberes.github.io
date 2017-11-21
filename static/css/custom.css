@@ -1,0 +1,137 @@
+/*
+:root {
+  --title-color: rgb(255, 92, 51);
+  --dark-highlight-color: rgb(255, 51, 0);
+  --light-highlight-color: rgb(255, 112, 77);
+  --dark-bg-color: rgb(51, 102, 153);
+  --light-bg-color: rgb(71, 117, 163);
+  --main-bg-picture: url(../img/winter-bg.jpg);
+  --contact-bg-picture: url(../img/panorama.jpg);
+}
+*/
+
+:root {
+  --title-color: rgb(77, 255, 210);
+  --dark-highlight-color: rgb(0, 204, 153);
+  --light-highlight-color: rgb(77, 255, 210);
+  --dark-bg-color: rgb(192, 192, 165);
+  --light-bg-color: rgb(203, 203, 180);
+  --main-bg-picture: url(../img/winter-bg.jpg);
+  --contact-bg-picture: url(../img/panorama.jpg);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    background-color: var(--light-bg-color);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h4 a, small {
+  color: #000;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--dark-highlight-color);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: var(--dark-bg-color);
+}
+
+.navbar-default .navbar-brand {
+    font-weight: 700;
+    color: #000;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    outline: 0;
+    color: #000;
+}
+
+.navbar-default .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #000;
+}
+
+.navbar-default a {
+    color: #000;
+}
+
+.navbar-default .nav li a {
+	color: #000;
+}
+
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: var(--dark-highlight-color);
+    background-color: transparent;
+}
+
+.navbar-default .nav li a:focus,
+.navbar-default .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-default .nav li.active {
+    outline: 0;
+}
+
+.navbar-default .nav li.active a {
+    background-color: var(--light-highlight-color);
+}
+
+.navbar-default .nav li.active a:hover {
+    color: var(--dark-highlight-color);
+}
+
+.well-sm {
+	margin-top: 1cm; 
+	background-color: var(--dark-bg-color);
+	border-color: var(--dark-highlight-color);
+}
+
+.well-sm hr {
+	color: var(--dark-highlight-color);
+}
+
+.btn-primary {
+    border: 2px solid var(--dark-highlight-color);
+    color: var(--dark-highlight-color);
+    background-color: var(--light-bg-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    border: 2px solid var(--dark-highlight-color);
+    outline: 0;
+    color: var(--dark-highlight-color);
+    background-color: var(--light-highlight-color);
+}
+
+footer {
+    padding: 5px 0;
+    text-align: center;
+    border-top: 1px solid var(--dark-highlight-color);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: var(--dark-highlight-color);
+}
