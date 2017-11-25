@@ -15,6 +15,7 @@ body { font-family: sans-serif; }
 
 .masonry-content h2 {
   font-family: 'Cabin Sketch', cursive;
+  padding-bottom: 5px;
 }
 
 .masonry-content msg {
@@ -95,8 +96,8 @@ body { font-family: sans-serif; }
 }
 
 .studies--gigante {
-  width: 300px;
-  height: 260px;
+  width: 320px;
+  height: 230px;
 }
 
 .praudit {
@@ -107,29 +108,18 @@ body { font-family: sans-serif; }
 
 .praudit--gigante {
   width: 300px;
-  height: 250px;
+  height: 220px;
 }
 
-.bsi {
-  width: 170px;
-  height: 90px;
-  background-color: var(--orange);
-}
-
-.bsi--gigante {
-  width: 250px;
-  height: 210px;
-}
-
-.bme {
+.conf {
   width: 250px;
   height: 120px;
   background-color: var(--red);
 }
 
-.bme--gigante {
-  width: 300px;
-  height: 210px;
+.conf--gigante {
+  width: 340px;
+  height: 250px;
 }
 
 .prog_lang {
@@ -141,4 +131,15 @@ body { font-family: sans-serif; }
 .prog_lang--gigante {
   width: 250px;
   height: 220px;
+}
+
+.twitter {
+  width: 270px;
+  height: 90px;
+  background-color: var(--green);
+}
+
+.twitter--gigante {
+  width: 320px;
+  height: 280px;
 }

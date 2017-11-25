@@ -20,6 +20,13 @@ $(document).ready( function() {
     $grid.masonry();
   });
 
+  $grid.on( 'click', '.conf', function() {
+    // change size of item via class
+    $( this ).toggleClass('grid-item--gigante conf--gigante');
+    // trigger layout
+    $grid.masonry();
+  });
+
   $grid.on( 'click', '.praudit', function() {
     // change size of item via class
     $( this ).toggleClass('grid-item--gigante praudit--gigante');
@@ -30,6 +37,13 @@ $(document).ready( function() {
   $grid.on( 'click', '.prog_lang', function() {
     // change size of item via class
     $( this ).toggleClass('grid-item--gigante prog_lang--gigante');
+    // trigger layout
+    $grid.masonry();
+  });
+
+  $grid.on( 'click', '.twitter', function() {
+    // change size of item via class
+    $( this ).toggleClass('grid-item--gigante twitter--gigante');
     // trigger layout
     $grid.masonry();
   });
