@@ -122,6 +122,17 @@ body { font-family: sans-serif; }
   height: 250px;
 }
 
+.conf_big {
+  width: 250px;
+  height: 120px;
+  background-color: var(--red);
+}
+
+.conf_big--gigante {
+  width: 340px;
+  height: 340px;
+}
+
 .prog_lang {
   width: 280px;
   height: 90px;
