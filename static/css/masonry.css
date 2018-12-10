@@ -97,7 +97,7 @@ body { font-family: sans-serif; }
 
 .studies--gigante {
   width: 320px;
-  height: 230px;
+  height: 280px;
 }
 
 .praudit {
@@ -119,17 +119,6 @@ body { font-family: sans-serif; }
 
 .conf--gigante {
   width: 340px;
-  height: 250px;
-}
-
-.big_conf {
-  width: 250px;
-  height: 120px;
-  background-color: var(--red);
-}
-
-.big_conf--gigante {
-  width: 320px;
   height: 340px;
 }
 
