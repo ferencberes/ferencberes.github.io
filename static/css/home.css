@@ -289,7 +289,9 @@ a:focus {
 .contact-section {
     display: table;
     width: 100%;
-    padding: 35px 0;
+    /*padding: 35px 0;*/
+    padding-top: 15px;
+    padding-bottom: 225px;
     margin-bottom: 80px;
     color: #000;
     background: var(--contact-bg-picture) no-repeat center center scroll;
@@ -306,7 +308,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 }
 
@@ -314,7 +316,7 @@ a:focus {
     border-radius: 0;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
