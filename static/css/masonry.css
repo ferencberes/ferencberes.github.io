@@ -100,6 +100,17 @@ body { font-family: sans-serif; }
   height: 280px;
 }
 
+.challenge {
+  width: 240px;
+  height: 120px;
+  background-color: var(--orange);
+}
+
+.challenge--gigante {
+  width: 320px;
+  height: 280px;
+}
+
 .praudit {
   width: 200px;
   height: 80px;
