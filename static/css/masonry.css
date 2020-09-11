@@ -79,14 +79,14 @@ body { font-family: sans-serif; }
 }
 
 .sztaki {
-  width: 280px;
-  height: 120px;
+  width: 260px;
+  height: 90px;
   background-color: var(--blue); 
 }
 
 .sztaki--gigante {
-   width: 280px;
-   height: 320px;
+   width: 260px;
+   height: 360px;
 }
 
 .studies {
