@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ferencberes.github.io
+Token: 633ba7be8f163d9d159e0e619a24b9557f1eba7c9be2333ed5ad370163f34155
